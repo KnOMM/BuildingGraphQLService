@@ -1,4 +1,4 @@
-package org.development.buildinggraphqlservice;
+package org.development.buildinggraphqlservice.check;
 
 import java.util.ArrayList;
 import java.util.Arrays;

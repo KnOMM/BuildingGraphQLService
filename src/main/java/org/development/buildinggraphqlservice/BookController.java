@@ -1,5 +1,7 @@
-package org.development.buildinggraphqlservice.check;
+package org.development.buildinggraphqlservice;
 
+import org.development.buildinggraphqlservice.check.AuthorStatic;
+import org.development.buildinggraphqlservice.check.BookStatic;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.MutationMapping;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
@@ -12,6 +14,7 @@ import java.util.List;
 public class BookController {
     @QueryMapping
     public BookStatic bookById(@Argument String id) {
+        System.out.println("Book id " + id);
         return BookStatic.getById(id);
     }
 

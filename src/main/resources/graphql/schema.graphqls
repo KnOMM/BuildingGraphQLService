@@ -1,0 +1,22 @@
+type Query {
+    bookById(id: ID!): Book,
+    books: [Book]
+    authorById(id: ID!): Author
+}
+
+type Mutation {
+    addBook(name: String!, pageCount: Int!, firstName: String!, lastName: String!): Book!
+}
+
+type Book {
+    id: ID
+    name: String
+    pageCount: Int
+    author: Author
+}
+
+type Author {
+    id: ID
+    firstName: String
+    lastName: String
+}

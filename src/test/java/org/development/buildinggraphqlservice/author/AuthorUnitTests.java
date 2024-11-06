@@ -1,4 +1,4 @@
-package org.development.buildinggraphqlservice.mongo;
+package org.development.buildinggraphqlservice.author;
 
 import org.development.buildinggraphqlservice.AuthorController;
 import org.development.buildinggraphqlservice.check.Author;

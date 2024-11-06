@@ -1,0 +1,5 @@
+query test($id: ID!) {
+    authorById(id: $id) {
+       lastName
+    }
+}

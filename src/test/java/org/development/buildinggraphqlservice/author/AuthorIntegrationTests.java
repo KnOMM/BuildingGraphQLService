@@ -1,4 +1,4 @@
-package org.development.buildinggraphqlservice.mongo;
+package org.development.buildinggraphqlservice.author;
 
 import org.development.buildinggraphqlservice.check.Author;
 import org.development.buildinggraphqlservice.check.AuthorRepository;
@@ -7,7 +7,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.graphql.ExecutionGraphQlService;
 import org.springframework.graphql.test.tester.ExecutionGraphQlServiceTester;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
